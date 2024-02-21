@@ -21,7 +21,7 @@ const createWeatherCard = (cityName, weatherItem, index) => {
                 <h2>${cityName} (${dataFormatada})</h2>
                 <h6>Teperatura: ${(weatherItem.main.temp - 273.15).toFixed(
                   2
-                )}°c</h6>
+                )}°C</h6>
                 <h6>Vento: ${(weatherItem.wind.speed * 3.6).toFixed(
                   2
                 )} km/h</h6>
@@ -43,7 +43,7 @@ const createWeatherCard = (cityName, weatherItem, index) => {
               }@2x.png">
               <h6>Teperatura: ${(weatherItem.main.temp - 273.15).toFixed(
                 2
-              )}°c</h6>
+              )}°C</h6>
               <h6>Vento: ${(weatherItem.wind.speed * 3.6).toFixed(2)} km/h</h6>
               <h6>Humidade: ${weatherItem.main.humidity}%</h6>
             </li>`;
